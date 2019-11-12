@@ -1,0 +1,218 @@
+@media screen and (max-width: 1700px) {
+  .aside-right {
+    font-size: 14px;
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 1240px) {
+  .aside-right {
+    font-size: 12px;
+    width: 200px;
+  }
+}
+
+.aside-right {
+  z-index: 9;
+  background: rgba(244, 245, 246, 0.82);
+  position: fixed;
+  bottom: 22px;
+  right: 20px;
+  width: 244px;
+  padding: 10px 0 0 0;
+  -webkit-box-shadow: 0 0 16px -8px black;
+  box-shadow: 0 0 16px -8px black;
+  font-size: 16px;
+}
+
+.aside-right-chat {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 0;
+  top: 0;
+  font-family: "S-CoreDream";
+}
+
+.aside-right-chat-ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 0 6px 13px 6px;
+  margin: 0;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.aside-right-chat-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.aside-right-chat-item a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-decoration: none;
+  color: #222222;
+}
+
+.aside-right-chat-item img {
+  display: block;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 46px;
+  flex: 0 0 46px;
+  width: 46px;
+}
+
+.aside-right img {
+  max-width: 100%;
+}
+
+.aside-right-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  padding: 0 13px;
+  margin: 0 0 16px 0;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.aside-right-header-icon {
+  display: block;
+  background: url(http://0803652430co.kr/pages/static/res/aside-right-header-icon.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 44px;
+  height: 53px;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 44px;
+  flex: 0 0 44px;
+  margin: 0 0 -3px 0;
+}
+
+.aside-right-header-text {
+  font-family: "S-CoreDream";
+  padding: 0 0 0 8px;
+}
+
+.aside-right-header-text h3 {
+  padding: 0;
+  display: block;
+  font-size: 1.4em;
+  margin: 0 auto 4px auto;
+  font-weight: 900;
+}
+
+.aside-right-header-text span {
+  display: block;
+  font-weight: 700;
+  font-size: 1.05em;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.aside-right-header-text em {
+  font-style: normal;
+  color: #0153a7;
+}
+
+.aside-right-call {
+  padding: 0 11px;
+  font-family: "S-CoreDream";
+}
+
+.aside-right-call-block {
+  background: #30383b;
+  border-radius: 16px;
+  padding: 8px 8px;
+  color: white;
+  text-align: center;
+}
+
+.aside-right-call-block em {
+  display: block;
+  color: #ffda00;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1em;
+  margin: 2px 0 4px 0;
+}
+
+.aside-right-call-block span {
+  display: block;
+  font-weight: 900;
+  font-size: 1.55em;
+}
+
+.aside-right .aside-form-body {
+  display: block;
+  padding: 11px 11px;
+}
+
+.aside-right .aside-form-item {
+  margin: 0 0 10px 0;
+}
+
+.aside-right .aside-form-label {
+  display: block;
+  width: 100%;
+  font-family: "S-CoreDream";
+  margin: 0 0 6px 0;
+}
+
+.aside-right .aside-form-input {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  border-radius: 8px;
+  border: 1px solid #02488d;
+  padding-left: 8px;
+}
+
+.aside-right .aside-form select.aside-form-input {
+  padding-left: 4px;
+}
+
+.aside-right .aside-form textarea {
+  min-height: 58px;
+  resize: vertical;
+}
+
+.aside-right .aside-form-privacy {
+  text-align: right;
+  margin: 0;
+}
+
+.aside-right .aside-form-submit-btn {
+  display: block;
+  border: 0;
+  padding: 12px 13px;
+  margin: 0;
+  background: url(http://0803652430co.kr/pages/static/res/aside-right-header-icon.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}

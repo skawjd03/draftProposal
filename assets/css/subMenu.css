@@ -1,0 +1,286 @@
+.chapternav {
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+  background: rgba(242, 242, 242, 0.6);
+}
+
+.chapternav {
+  background: #ffffff;
+  overflow: hidden;
+  padding: 0;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  height: 92px;
+}
+
+.chapternav-wrapper {
+  position: relative;
+  height: 100%;
+  z-index: 1;
+}
+
+.chapternav-items {
+  list-style: none;
+  margin: 0 34px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 50px;
+  white-space: nowrap;
+}
+
+@media only screen and (orientation: landscape) {
+  .chapternav-items {
+    padding-bottom: 49px;
+  }
+}
+
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hgroup,
+p,
+blockquote,
+figure,
+form,
+fieldset,
+input,
+legend,
+pre,
+abbr,
+button {
+  margin: 0;
+  padding: 0;
+}
+
+p + *,
+ul + *,
+ol + * {
+  margin-top: 0.8em;
+}
+
+.chapternav-item:first-child {
+  margin-left: 0;
+  padding-left: 4px;
+}
+
+.chapternav-item:last-child {
+  margin-right: 0;
+  padding-right: 4px;
+}
+
+.chapternav-item {
+  -webkit-animation: chapternav-slidein 350ms backwards;
+  animation: chapternav-slidein 350ms backwards;
+}
+
+.chapternav-item {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 -0.11765em;
+  padding: 0 20px;
+}
+
+.chapternav-link {
+  color: #111;
+  display: block;
+  margin-top: 3px;
+  padding: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.chapternav-item-img .chapternav-icon {
+  width: 52px;
+  height: 54px;
+  background-size: 52px 54px;
+  background-repeat: no-repeat;
+}
+
+.chapternav-item-img .chapternav-icon {
+  background-size: 52px 54px;
+  background-repeat: no-repeat;
+  width: 52px;
+}
+
+.chapternav-icon {
+  background: center bottom no-repeat;
+  display: block;
+  margin: 0 auto 6px;
+  height: 54px;
+}
+
+.chapternav-label:lang(ko) {
+  letter-spacing: 0em;
+  font-family: "SF Pro KR", "SF Pro Text", "SF Pro Icons", "Apple Gothic",
+    "HY Gulim", "MalgunGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue",
+    "Helvetica", "Arial", sans-serif;
+}
+
+.chapternav-label {
+  font-size: 11px;
+  line-height: 1.09091;
+  font-weight: 400;
+  letter-spacing: -0.008em;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  display: block;
+  margin: 0;
+}
+
+.chapternav-new {
+  position: relative;
+}
+
+.chapternav-new {
+  font-size: 9px;
+  line-height: 1.22226;
+  font-weight: 400;
+  letter-spacing: -0.006em;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  color: #ef5602;
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+}
+
+.chapternav-paddle:disabled {
+  opacity: 0;
+}
+
+.chapternav-paddle:lang(ko) {
+  font-family: "SF Pro KR", "SF Pro Display", "SF Pro Icons", "Apple Gothic",
+    "HY Gulim", "MalgunGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue",
+    "Helvetica", "Arial", sans-serif;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+.chapternav-paddle-left {
+  border-right-width: 1px;
+  left: 0;
+}
+
+.chapternav-paddle-right {
+  border-left-width: 1px;
+  right: 0;
+}
+
+.chapternav-paddle {
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 300;
+  letter-spacing: 0em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  border: 0 solid rgba(17, 17, 17, 0.2);
+  border-radius: 0;
+  color: #000;
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+  width: 33px;
+  -webkit-transition: opacity 150ms ease-out;
+  transition: opacity 150ms ease-out;
+}
+
+button {
+  background: none;
+  border: 0;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  line-height: inherit;
+  overflow: visible;
+  vertical-align: inherit;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+}
+
+.chapternav-paddle-left:after {
+  margin-left: 8px;
+}
+
+.chapternav-paddle-right:after {
+  margin-right: 8px;
+}
+
+.chapternav-paddle-left::before,
+.chapternav-paddle-left::after {
+  text-decoration: none;
+}
+
+.chapternav-paddle-right::before,
+.chapternav-paddle-right::after {
+  text-decoration: none;
+}
+
+.chapternav-paddle-left::before,
+.chapternav-paddle-left::after {
+  font-family: "SF Pro Icons";
+  color: inherit;
+  display: inline-block;
+  font-style: normal;
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: 1;
+  text-decoration: underline;
+  position: relative;
+  z-index: 1;
+  alt: "";
+}
+
+.chapternav-paddle-right::before,
+.chapternav-paddle-right::after {
+  font-family: "SF Pro Icons";
+  color: inherit;
+  display: inline-block;
+  font-style: normal;
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: 1;
+  text-decoration: underline;
+  position: relative;
+  z-index: 1;
+  alt: "";
+}
+
+.chapternav-paddle:after {
+  opacity: 0.8;
+  -webkit-transition: opacity 200ms linear;
+  transition: opacity 200ms linear;
+}
+
+.chapternav-paddle-left {
+  border-right-width: 1px;
+  left: 0;
+}
+
+.chapternav-paddle-right {
+  border-left-width: 1px;
+  right: 0;
+}
