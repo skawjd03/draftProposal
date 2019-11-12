@@ -12,6 +12,12 @@
   }
 }
 
+@media screen and (max-width: 992px) {
+  .aside-right {
+    display: none;
+  }
+}
+
 .aside-right {
   z-index: 9;
   background: rgba(244, 245, 246, 0.82);
