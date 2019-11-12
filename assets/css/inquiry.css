@@ -10,6 +10,9 @@
     padding: 0;
     border: none;
   }
+  .send-request{
+    margin-top: 150px;
+  }
 }
 
 div.send-request > section[data-v-59c17df2] {
